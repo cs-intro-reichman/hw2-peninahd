@@ -19,8 +19,6 @@ public class TimeCalc {
         boolean minute = newMinutes < 10;
         boolean hour = newHours < 10;
 
-        System.out.println("total hours = " + totalHours);
-
         if (hour) {
             if (minute)
             {
