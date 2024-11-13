@@ -17,6 +17,6 @@ public class CalcPi {
 				}
 				c *= 4; //need to multiply by 4 bc the equation gives us PI/4
 				System.out.println("pi according to Java: " + Math.PI);
-				System.out.println(String.format("pi, approximated:	 " + c));
+				System.out.println("pi, approximated:	 " + c);
 			}
 		}
