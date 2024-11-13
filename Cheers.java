@@ -21,8 +21,8 @@ public class Cheers {
                 }
                 i++;
             }
-               
-                System.out.println("What does that spell?");
+               String s = "What does that spell?";
+                System.out.println(s);
                 //print the word N amount of times
                 int a = 0;
                 while (a < N){
