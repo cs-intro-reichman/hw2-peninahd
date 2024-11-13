@@ -14,22 +14,12 @@ public class TimeCalc {
         int newHours = totalHours % 24;
         int newMinutes = totalMinutes - (totalHours * 60);
 
-        //adding this to check the flow
-        System.out.println("Origianl hours = " + hours);
-        System.out.println("Origianl minutes = " + minutes);
-        System.out.println("Adding " + addMinutes + " minutes.");
-        System.out.println("total hours = " + totalHours);
-        System.out.println("total minutes = " + totalMinutes);
-        System.out.println("new hours = " + newHours);
-        System.out.println("new minutes = " + newMinutes);
-
         //display the new number of hours and minutes as the new time
 
         boolean minute = newMinutes < 10;
         boolean hour = newHours < 10;
 
         System.out.println("total hours = " + totalHours);
-
 
         if (hour) {
             if (minute)
