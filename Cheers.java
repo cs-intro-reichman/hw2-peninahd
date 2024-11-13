@@ -21,8 +21,9 @@ public class Cheers {
                 }
                 i++;
             }
+               
+                System.out.println("What does that spell?");
                 //print the word N amount of times
-
                 int a = 0;
                 while (a < N){
                         System.out.println(word + "!!!"); 
