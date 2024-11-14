@@ -4,7 +4,7 @@ public class Cheers {
 	    // gets an input string and N number of times 
             String word = args[0];
             int N = Integer.parseInt(args[1]);
-            String anValues = "AEFHILMNORSX";
+            String anValues = "AEFHILMNoRSX";
             
             //create a loop that checks each letter and prints it
             //takes each letter individually and decides if it is 
