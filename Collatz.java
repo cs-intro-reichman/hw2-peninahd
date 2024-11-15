@@ -3,9 +3,11 @@ public class Collatz {
 	public static void main(String[] args) {
         int N = Integer.parseInt(args[0]);
         String mode = args[1];
+        String v = "v";
         int times = 0;
         boolean firstValue = true;
         //prints the original N         
+        if (mode.equals(v)) {
         while (N != 1) {
             if (!firstValue) {
                 System.out.print(", ");
@@ -24,5 +26,9 @@ public class Collatz {
             }
         System.out.println(", 1" + " (" + times + ")");
         System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
+        }
+        else {
+            System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
+        }
         }
     }
