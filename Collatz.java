@@ -36,25 +36,26 @@ public class Collatz {
                 while (Y != 1) {
                     if (!firstValue) {
                         System.out.print(" ");
-                    } 
+                    }
                     System.out.print(Y);
         
                     firstValue = false;
         
                         if (Y % 2 == 0) {
-                            Y = Y / 2;
+                            Y = Y / 2; 
             
-                        } else {
+                        } else { 
                             Y = (Y * 3) + 1;
                         }
-                    times++;    
+                        times++;   
                     }
-                System.out.println(" 1" + " (" + times + ")");
+                //need to fix the bug for when Z=2 it doesn't count times correctly
+                System.out.println(" 1 (" + (times + 1) + ")");
                 times = 0;
                 firstValue = true;
+                }
             }
         }
         System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
         }
     }
-}
